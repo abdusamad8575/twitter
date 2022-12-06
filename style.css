@@ -1,0 +1,276 @@
+#bodyStyle{
+    margin: 0;
+    background-color: #e7ecef;
+    font-family: 'Roboto', sans-serif;
+}
+#mainDiv{
+    width: 100%;
+    height: 651px;
+    background-color: rgb(13, 14, 14);
+    
+
+}
+#headDiv{
+    width: 100%;
+    height: 15%;
+    background-color: #4ca0eb;
+}
+#cenderDiv{
+    width: 100%;
+    height: 7%;
+    background-color: #ffffff;
+    border-top: 2px solid #4592d7;
+    border-bottom: 2px solid #c5c9cc;
+}
+#bodyDive{
+    width: 100%;
+    height: 78%;
+    background-color: #e7ecef;
+    display: flex;
+
+}
+#circleDiv{
+    width: 160px;
+    height: 160px;
+    /* background-color: #ced6dc; */
+    background-image:url('Lionel-Messi.jpg') ;
+    background-size: 100%;
+    border-radius: 50%;
+    border: solid 3px #ffffff;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 8%;
+}
+#innerFirstDiv{
+    width: 30%;
+    height: auto;
+    display: inline-block;
+
+}
+#innerSecondDiv{
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    overflow-x: hidden;  /*scroll*/
+
+}
+#profileDetails{
+    width: 72%;
+    height: -webkit-fill-available;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+#profileDetailsDiv{
+    width: 95%;
+    height: 25%;
+    margin-left: 5%;
+    margin-bottom: 10px; 
+}
+#followersDetails{
+    background-color: #ffffff;
+    width: 100%;
+    height: 70%;
+}
+#buttonId{
+    background-color: #67b2ee;
+    border-radius: 15px;
+    border: none;
+    width: inherit;
+    height: 25px;
+    color: #ffffff;
+}
+#chatScreanDiv{
+    background-color: #ffffff;
+    width: 80%;
+    /* height: -webkit-fill-available; */
+    margin-top: 10px;
+}
+.foundColor{
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#p1{
+    font-size: medium;
+    font-weight: bolder;
+}
+.p2{
+    font-size: x-small;
+    color: #4592d7;
+    cursor: pointer;
+}
+.minesSize{
+    font-size: xx-small;
+}
+.smallCircle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: brown; */
+    background-image:url('cristiano-ronaldo.jpg') ;
+    background-size: 130%;
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+}
+.nameId{
+        font-size: small;
+        font-weight: bold;
+}
+.idDiv{
+    font-size: x-small;
+    color: gray;
+}
+.followButton{
+    color: #4592d7;
+    border-color: #67b2ee;
+    border-radius: 15px;
+    width: 75px;
+    background-color: #ffffff;
+    border: solid 1px;
+    font-weight: bold;
+}
+.followButton:hover{
+    background-color: #e7e7e7;
+}
+#buttonDiv{
+    margin-top: 3px;
+}
+#followArainge{
+    padding: 10px;
+}
+.followersWrapedDiv{
+    border-bottom: solid 2px #f6f8fa;
+    padding-bottom: 10px;
+}
+#followTable{
+    padding: 0px 10px 0px 10px;
+}
+#findPeapleDiv{
+    padding-top: 7px;
+}
+.closeIcon{
+    color: #dce2e7;
+    font-size: small;
+    float: right;
+}
+#userWrapIcon{
+    margin-right: 10px;
+    display: inline-block;
+}
+#h3Id{
+    margin-bottom: 0px;
+}
+.calendarId{
+    color: gray;
+    font-size: small;
+    margin-right: 5px;
+}
+#calanderWrapDiv{
+    margin-bottom: 15px;
+}
+.chatWrapedDiv{
+    border-bottom: solid 2px #eff2f5;
+    padding: 10px;
+}
+#tweesId{
+    color: #4592d7;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#TweetsRepliesId{
+    font-size: 20px;
+    font-weight: bold;
+}
+#tweetsWrap{
+    margin-left: 5px;
+    padding-top: 10px;
+}
+#newId{
+    color: #4592d7;
+    font-size: 11px;
+}
+#spanId{
+    font-size: 12px;
+}
+.iconEditing{
+    color: #9aa5ad;
+    font-size: small;
+    margin-right: 55px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+#ulId{
+    list-style: none;
+    margin-bottom: 0px;
+    display: flex;
+    margin-top: 6px;
+    padding-left: 50px;
+}
+#arowId{
+    color: #9aa5ad;
+    font-size: small;
+    float: right;
+    cursor: pointer;
+}
+.tweets10Id{
+    color: gray;
+    font-size: small;
+}
+#NumberId{
+    color: #4592d7;
+    font-weight: bold;
+}
+.hederSingleDiv{
+    border-bottom: solid #4592d7;
+    width: 70px;
+    text-align: center;
+    margin-right: 10px;
+}
+.ulClass{
+    list-style: none;
+    margin-top: 7px;
+    display: flex;
+    padding-left: 30%;
+}
+.NumberClass{
+    color: gray;
+    font-weight: bold;
+}
+.hedersDiv{
+    text-align: center;
+    width: 70px;
+    margin-right: 10px;
+}
+#followBottonId{
+    color: #4592d7;
+    border-color: #67b2ee;
+    border-radius: 20px;
+    width: 100px;
+    height: 32px;
+    background-color: #ffffff;
+    border: solid 1px;
+    font-weight: bold;
+    margin-right: 15px;
+    
+}
+
+.iconSpanEllipsis{
+    color: gray;
+    cursor: pointer;
+}
+.buttonWrappedClass{
+    margin-left: 265px;
+}
+#followBottonId:hover{
+    background-color: #e7e7e7;
+}
+button{
+    cursor: pointer;
+}
+#buttonId:hover{
+    background-color: gray;
+    color: #4592d7;
+}
